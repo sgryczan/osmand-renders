@@ -244,26 +244,26 @@
 		</case>
 	</renderingAttribute>
 	<renderingAttribute name="residentialRoadColor">
-		<case nightMode="true" attrColorValue="#753535">
+		<case nightMode="true" attrColorValue="#ffffff">
 			<apply_if additional="construction=yes" attrColorValue="#3D1D1D"/>
 		</case>
 		<case attrColorValue="#777777">
 			<apply_if additional="construction=yes" attrColorValue="#BEBEBE"/>
 		</case>
 	</renderingAttribute>
-	<renderingConstant name="residentialRoadLowZoomDayColor" value="#888888"/>
-	<renderingConstant name="residentialRoadLowZoomDayColor2" value="#aaaaaa"/>
-	<renderingConstant name="residentialRoadLowZoomNightColor" value="#5d2a2a"/>
+	<renderingConstant name="residentialRoadLowZoomDayColor" value="#ffffff"/>
+	<renderingConstant name="residentialRoadLowZoomDayColor2" value="#ffffff"/>
+	<renderingConstant name="residentialRoadLowZoomNightColor" value="#ffffff"/>
 	<renderingAttribute name="serviceRoadLowZoomColor">
-		<case nightMode="true" attrColorValue="#6f4141"/>
-		<case attrColorValue="#aaaaaa"/>
+		<case nightMode="true" attrColorValue="#ffffff"/>
+		<case attrColorValue="#ffffff"/>
 	</renderingAttribute>
 
 	<renderingAttribute name="serviceRoadColor">
-		<case nightMode="true" attrColorValue="#663C3C">
+		<case nightMode="true" attrColorValue="#ffffff">
 			<apply_if additional="construction=yes" attrColorValue="#492B2B"/>
 		</case>
-		<case attrColorValue="#888888">
+		<case attrColorValue="#ffffff">
 			<apply_if additional="construction=yes" attrColorValue="#CDCDCD"/>
 		</case>
 	</renderingAttribute>
