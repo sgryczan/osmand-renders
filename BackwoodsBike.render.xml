@@ -268,8 +268,8 @@
 		</case>
 	</renderingAttribute>
 
-	<renderingConstant name="trackDayColor" value="#555555"/>
-	<renderingConstant name="trackNightColor" value="#665555"/>
+	<renderingConstant name="trackDayColor" value="#fcc203"/>
+	<renderingConstant name="trackNightColor" value="#fcc203"/>
 
 	<renderingAttribute name="mainHighwayOnewayArrowsColor">
 		<case attrColorValue="#ffffff"/>
