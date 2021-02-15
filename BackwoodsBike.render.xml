@@ -247,8 +247,8 @@
 		<case nightMode="true" attrColorValue="#ffffff">
 			<apply_if additional="construction=yes" attrColorValue="#3D1D1D"/>
 		</case>
-		<case attrColorValue="#777777">
-			<apply_if additional="construction=yes" attrColorValue="#BEBEBE"/>
+		<case attrColorValue="#ffffff">
+			<apply_if additional="construction=yes" attrColorValue="#ffffff"/>
 		</case>
 	</renderingAttribute>
 	<renderingConstant name="residentialRoadLowZoomDayColor" value="#ffffff"/>
