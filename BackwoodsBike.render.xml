@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- xmd5a (xmd5a@yandex.ru) http://forum.openstreetmap.org/viewtopic.php?id=23125 -->
 <renderingStyle name="BackwoodsBike" depends="" defaultColor="#ffffff" version="1">
+
+	<!--
+	[ What this file does ]
+		This file changes the appearance of maps in OsmAnd (an app which
+		downloads OpenStreetMap data for offline viewing). Maps are recolored
+		to highlight areas which may be of interest in Pokémon GO.
+	[ How to use this file ]
+		1) Install OsmAnd on your device and let the app download relevant maps
+			for your area.
+		2) Copy this file to the OsmAnd rendering folder on your device.
+			* On Android, this may be [storage]/android/data/net.osmand.plus/
+				files/rendering
+		3) Restart OsmAnd. Click the menu button in the lower left and select
+			"Configure map."
+		4) Scroll to the "Map Rendering" section and click the "Map style"
+			setting. Choose "PoGo nest finder."
+		5) Further down in the "Map Rendering" section, configure settings to
+			your liking in the "Details" and "Hide" submenus.
+	-->
+
+
 	<renderingProperty attr="moreDetailed" name="More details" description="More details on map" type="boolean" possibleValues="" category="details"/>
 	<renderingProperty attr="contourLines" name="Show contour lines" description="Select minimum zoom level to display in map if available. Separate contour file may be needed." type="string" possibleValues="16,15,14,13,12,11" defaultValueDescription="default" category="details"/>
 	<renderingProperty attr="contourColorScheme" name="Contour lines color scheme" description="Contour lines color scheme" type="string" possibleValues="white,yellow,green,light_brown,brown,dark_brown,red" defaultValueDescription="default"/>
@@ -747,58 +768,58 @@
 					<apply_if additional="layer=-2" order="33"/>
 				</case>
 
-				<case tag="highway" value="cycleway" order="65">
-					<apply_if baseAppMode="pedestrian" order="87"/>
+				<case tag="highway" value="cycleway" order="10">
+					<!-- <apply_if baseAppMode="pedestrian" order="87"/>
 					<apply_if layer="1" order="109"/>
 					<apply_if additional="layer=2" order="139"/>
 					<apply_if additional="layer=3" order="146"/>
 					<apply_if layer="-1" order="42"/>
 					<apply_if additional="layer=-2" order="19"/>
-					<apply_if baseAppMode="bicycle" order="177"/>
+					<apply_if baseAppMode="bicycle" order="177"/> -->
 				</case>
-				<case baseAppMode="bicycle" tag="cycleway" value="" order="88">
-					<apply_if layer="1" order="109"/>
+				<case baseAppMode="bicycle" tag="cycleway" value="" order="10">
+					<!-- <apply_if layer="1" order="109"/>
 					<apply_if additional="layer=2" order="139"/>
 					<apply_if additional="layer=3" order="167"/>
 					<apply_if layer="-1" order="42"/>
-					<apply_if additional="layer=-2" order="19"/>
+					<apply_if additional="layer=-2" order="19"/> -->
 				</case>
 				<apply_if maxzoom="14" additional="construction=yes" order="-1"/>
 			</switch>
-			<case tag="highway" value="track" order="64">
-				<apply_if layer="1" order="89"/>
+			<case tag="highway" value="track" order="11">
+				<!-- <apply_if layer="1" order="89"/>
 				<apply_if additional="layer=2" order="119"/>
 				<apply_if additional="layer=3" order="147"/>
 				<apply_if layer="-1" order="20"/>
-				<apply_if additional="layer=-2" order="19"/>
+				<apply_if additional="layer=-2" order="19"/> -->
 			</case>
-			<case tag="highway" value="footway" order="64">
-				<apply_if layer="1" order="110"/>
+			<case tag="highway" value="footway" order="11">
+				<!-- <apply_if layer="1" order="110"/>
 				<apply_if additional="layer=2" order="140"/>
 				<apply_if additional="layer=3" order="166"/>
 				<apply_if layer="-1" order="20"/>
-				<apply_if additional="layer=-2" order="19"/>
+				<apply_if additional="layer=-2" order="19"/> -->
 			</case>
-			<case tag="highway" value="steps" order="65">
-				<apply_if layer="1" order="111"/>
+			<case tag="highway" value="steps" order="11">
+				<!-- <apply_if layer="1" order="111"/>
 				<apply_if additional="layer=2" order="140"/>
 				<apply_if additional="layer=3" order="166"/>
 				<apply_if layer="-1" order="20"/>
-				<apply_if additional="layer=-2" order="19"/>
+				<apply_if additional="layer=-2" order="19"/> -->
 			</case>
-			<case tag="highway" value="path" order="37">
-				<apply_if layer="1" order="110"/>
+			<case tag="highway" value="path" order="11">
+				<!-- <apply_if layer="1" order="110"/>
 				<apply_if additional="layer=2" order="140"/>
 				<apply_if additional="layer=3" order="166"/>
 				<apply_if layer="-1" order="20"/>
-				<apply_if additional="layer=-2" order="19"/>
+				<apply_if additional="layer=-2" order="19"/> -->
 			</case>
 			<case tag="highway" value="bridleway" order="53">
-				<apply_if layer="1" order="109"/>
+				<!-- <apply_if layer="1" order="109"/>
 				<apply_if additional="layer=2" order="139"/>
 				<apply_if additional="layer=3" order="165"/>
 				<apply_if layer="-1" order="20"/>
-				<apply_if additional="layer=-2" order="19"/>
+				<apply_if additional="layer=-2" order="19"/> -->
 			</case>
 
 			<case tag="natural" value="coastline_broken" order="63"/>
