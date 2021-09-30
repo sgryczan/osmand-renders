@@ -3,10 +3,6 @@
 <renderingStyle name="BackwoodsBike" depends="" defaultColor="#ffffff" version="1">
 
 	<!--
-	[ What this file does ]
-		This file changes the appearance of maps in OsmAnd (an app which
-		downloads OpenStreetMap data for offline viewing). Maps are recolored
-		to highlight areas which may be of interest in Pokémon GO.
 	[ How to use this file ]
 		1) Install OsmAnd on your device and let the app download relevant maps
 			for your area.
